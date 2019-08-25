@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.PlayerListVideoActivity"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:id="@+id/mContainer"
+            android:layout_gravity="center">
+
+            <com.universalvideoview.UniversalVideoView
+                android:id="@+id/mVideoPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:uvv_autoRotation="true"
+                app:uvv_fitXY="false" />
+
+            <com.universalvideoview.UniversalMediaController
+                android:id="@+id/mController"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:uvv_scalable="true" />
+        </FrameLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_more_vert_black_24dp"
+            android:background="@drawable/ic_background_icon"
+            android:layout_gravity="right"
+            android:layout_margin="15dp"
+            android:onClick="MoreAction"/>
+    </FrameLayout>
+    <include layout="@layout/layout_bottom_playlist"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

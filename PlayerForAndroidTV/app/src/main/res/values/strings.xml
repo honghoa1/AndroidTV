@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OmiTv</string>
+
+    <string name="url_dash">https://bitdash-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd</string>
+    <string name="url_thumbnails">https://bitdash-a.akamaihd.net/content/MI201109210084_1/thumbnails/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.jpg</string>
+    <string name="url_smooth">http://playready.directtaps.net/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism</string>
+    <string name="url_hls">https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8</string>
+    <string name="onboarding_title_welcome">Chào mừng bạn đến với OmiTV</string>
+    <string name="onboarding_title_design">Thiết kế OmiTV</string>
+    <string name="onboarding_title_simple">Vui mỗi ngày với OmiTv</string>
+    <string name="onboarding_title_project">Làm mọi việc thoả thích với OmiTv</string>
+
+    <string name="onboarding_description_welcome">OmiTV được thiết kế bởi team android TV Sakura 3</string>
+    <string name="onboarding_description_design">Chính bạn với một tài khoản google driver chính là người thiết kế OmiTV Thật thú vị đúng không?</string>
+    <string name="onboarding_description_simple">Thỏa thích xem những bộ phim do chính bạn cài đặt</string>
+    <string name="onboarding_description_project">Cùng trải nghiệm với OmiTV ngay bây giờ thôi nào! </string>
+</resources>

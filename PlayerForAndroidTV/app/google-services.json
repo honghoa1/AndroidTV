@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "806627344331",
+    "firebase_url": "https://storage-1419e.firebaseio.com",
+    "project_id": "storage-1419e",
+    "storage_bucket": "storage-1419e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806627344331:android:01d3fd3b7c1eba22",
+        "android_client_info": {
+          "package_name": "com.nhigia.playerforandroidtv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806627344331-ctqmv6i88g52j6iu1a5l1q2u1b6ft9dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0vyCGKCRIVEQxxPxnD6f3r90ZRaH5Zso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806627344331-ctqmv6i88g52j6iu1a5l1q2u1b6ft9dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
